@@ -28,6 +28,73 @@
   color: #61dafb;
 }
 
+.color-text-white{
+  color: #ffffff;
+}
+
+
+.heading-text{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.sub-text{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.desc-text{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.desc-text-mt{
+  margin-top: 5%;
+}
+
+.product-cat-text{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10%;
+}
+
+.best-price-text{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.theme-green-color-text{
+  color: #a0b759;
+}
+
+.price-text{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.buy-now-btn{
+  background-color: #ffffff;
+  border-radius: 50px;
+  font-size: 16px;
+  border: none;
+  padding: 15px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.buy-now-btn:hover{
+  background-color: #a0b759;
+  color: #ffffff;
+}
+
+.buy-now-btn:focus{
+  background-color: #8fa44f;
+  color: #ffffff;
+  border: none  ;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
