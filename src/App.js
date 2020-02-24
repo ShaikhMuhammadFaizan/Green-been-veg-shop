@@ -5,6 +5,8 @@ import Header from './Header'
 import Aboutshop from './AboutShop'
 import Strongpoint from './StrongPoint'
 import Benefits from './Benefits'
+import OurProducts from './OurProducts'
+
 
 
 
@@ -17,6 +19,7 @@ class App extends Component {
         <Aboutshop />
         <Strongpoint />
         <Benefits />
+        <OurProducts />
       </div>
     );
   }
