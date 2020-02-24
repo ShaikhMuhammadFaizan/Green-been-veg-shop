@@ -1,0 +1,28 @@
+.strong-point{
+    margin-top: 8%;
+}
+
+.strong-point-image{
+    width: 100px;
+    height: 100px;
+}
+
+.strong-point-section{
+    flex-direction: column;
+    width: 30%;
+}
+
+.strong-points-area{
+    margin-top: 5%;
+}
+
+.point-heading-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.point-desc-text{
+    color: #818689;
+    font-size: 14px;
+    font-weight: 400;
+}
