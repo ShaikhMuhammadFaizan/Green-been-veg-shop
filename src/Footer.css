@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    background-color: #b2c75e;
+    padding: 5%;
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.subscribe-btn{
+    margin-top: 10px;
+    align-self: center;
+    padding: 0px ;
+    width: 140px !important;
+    padding: 10px !important;
+    background-color: black;
+    color: #ffffff;
+    
+}
+
+.email-input{
+    width: 300px;
+}
+
+.footer-text{
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 1px 1px #808080;
+}
