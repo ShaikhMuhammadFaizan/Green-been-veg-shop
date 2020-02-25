@@ -29,7 +29,7 @@
 }
 
 .about-shop-description{
-    width: 40%;
+    width: 50%;
     /* height: 60%; */
     padding: 5%;
     margin: 3%;
@@ -39,11 +39,48 @@
 }
 
 .about-heading-text{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .about-desc-text{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 1050px) {
+    .about-shop-description{
+        width: 70%;
+    }
+    .about-heading-text{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .about-desc-text{
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+
+    .about-shop-description-area{
+        position: unset;
+    }
+
+    .about-shop-description{
+        width: 100%;
+        margin: 4% 0% 4% 0%;
+    }
+    
+    .about-shop-image{
+        width: 45%;
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+   
 }
